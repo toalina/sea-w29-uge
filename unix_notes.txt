@@ -3,6 +3,8 @@ git branch
 #check out (or change onto) git-notes branch
 git checkout git-notes
 
+#whoo almost done with class!
+
 #make new branch called git-notes
 git branch git-notes
 
