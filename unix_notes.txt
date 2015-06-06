@@ -1,3 +1,5 @@
+# Display hidden files and hidden directories
+
 cd
 man less
 history | less
