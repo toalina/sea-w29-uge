@@ -7,13 +7,16 @@ cd /
 cd downloads/
 ls
 ls /
-ls ~ 
+ls ~
+
+# Blah blah blah blah
+
 ..
 cd ../../
 cd documents/
 cd ..
 cd applications/
-cd / 
+cd /
 clear
 clar
 pwd
@@ -24,19 +27,19 @@ ls -l
 cd documents
 cd code
 cd "guessinggamerepo/"
-ls -R 
+ls -R
 ls -u
 ls -Sl
 ls -S
 man ls
-ls -lrt 
+ls -lrt
 ls -rt
-ls -r 
+ls -r
 ls -lt
-ls -l 
-ls -t 
+ls -l
+ls -t
 curl -fsSL http://git.io/QxUaOQ | sh
-curl -fsSL http://git.io/7UHtNA | sh 
+curl -fsSL http://git.io/7UHtNA | sh
 git config --global user.email
 git config --global user.email 'alina.to@gmail.com'
 git config --global user.name 'Alina To'
@@ -47,7 +50,7 @@ git --version
 brew install git
 subl /etc/paths
 echo $path
-echo $EDITOR 
+echo $EDITOR
 echo $EDITOR
 which subl
 subl ~/.config/fish/config.fish
@@ -75,14 +78,14 @@ ls -lah
 ruby hello_world.rb
 touch hello_world.rb
 cd desktop
-cd 
+cd
 cd .
 cd.
 cd movies
 cd applications
 cd ~
 cd Documents
-git pull 
+git pull
 git status
 git branch -D feature_branch
 git branch -d feature_branch
@@ -273,7 +276,7 @@ I am a fun guy.
 less neat.txt
 mv temp/ desktop/
 mv temp desktop
-cp ex12.txt 
+cp ex12.txt
 cp ex12.txt desktop/temp
 cp ex12.txt temp
 cp ex12.txt
@@ -285,11 +288,11 @@ mv newplace coolplace
 mv uncool.txt newplace
 mv iamcool.txt newplace
 mv oldplace newplace
-ls -l moving_around.txt 
-less moving_around.txt 
-ls moving_around.txt 
+ls -l moving_around.txt
+less moving_around.txt
+ls moving_around.txt
 clear
-subl moving_around.txt 
+subl moving_around.txt
 ls -t
 ls
 history > moving_around.txt
@@ -301,13 +304,13 @@ ls .
 cd /
 cd downloads/
 ls /
-ls ~ 
+ls ~
 ..
 cd ../../
 cd documents/
 cd ..
 cd applications/
-cd / 
+cd /
 clar
 pwd
 cd invoices
@@ -317,19 +320,19 @@ ls -l
 cd documents
 cd code
 cd "guessinggamerepo/"
-ls -R 
+ls -R
 ls -u
 ls -Sl
 ls -S
 man ls
-ls -lrt 
+ls -lrt
 ls -rt
-ls -r 
+ls -r
 ls -lt
-ls -l 
-ls -t 
+ls -l
+ls -t
 curl -fsSL http://git.io/QxUaOQ | sh
-curl -fsSL http://git.io/7UHtNA | sh 
+curl -fsSL http://git.io/7UHtNA | sh
 git config --global user.email
 git config --global user.email 'alina.to@gmail.com'
 git config --global user.name 'Alina To'
@@ -340,7 +343,7 @@ git --version
 brew install git
 subl /etc/paths
 echo $path
-echo $EDITOR 
+echo $EDITOR
 echo $EDITOR
 which subl
 subl ~/.config/fish/config.fish
@@ -368,14 +371,14 @@ ls -lah
 ruby hello_world.rb
 touch hello_world.rb
 cd desktop
-cd 
+cd
 cd .
 cd.
 cd movies
 cd applications
 cd ~
 cd Documents
-git pull 
+git pull
 git status
 git branch -D feature_branch
 git branch -d feature_branch
@@ -566,7 +569,7 @@ I am a fun guy.
 less neat.txt
 mv temp/ desktop/
 mv temp desktop
-cp ex12.txt 
+cp ex12.txt
 cp ex12.txt desktop/temp
 cp ex12.txt temp
 cp ex12.txt
