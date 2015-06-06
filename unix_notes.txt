@@ -1,3 +1,50 @@
+git branch
+
+#check out (or change onto) git-notes branch
+git checkout git-notes
+
+#make new branch called git-notes
+git branch git-notes
+
+git status
+q
+git
+man
+
+man less
+
+# step 2: commit and add a comment about what changes
+git commit -m "Add comment about displaying hidden files"
+
+# step 1: add file to stage
+git add unix_notes.txt
+
+# use sublime to open unix_notes.txt
+subl unix_notes.txt
+
+# show all history
+history
+
+# show git history
+git log
+git commit -m "Added blah blah blah blah"
+
+# show differences between previous and currently staged versions of the file
+git diff --staged
+git diff
+git commit -m "Add initial version of unix notes."
+cd ..
+ls
+
+# change directory into the hidden .git directory
+cd .git
+
+# list all things
+ls -a
+
+# Initialize git
+git init
+
 # Display hidden files and hidden directories
 
 cd
