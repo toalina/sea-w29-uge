@@ -1,3 +1,12 @@
+~/uge_workshop git-notes ✔ git remote -v
+~/uge_workshop git-notes ✔
+git remote add origin git@github.com:toalina/sea-w29-uge.git
+~/uge_workshop git-notes ✔ git remote -v
+
+~/uge_workshop git-notes ✔ git push origin git-notes
+
+
+
 git branch
 
 #check out (or change onto) git-notes branch
