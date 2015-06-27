@@ -1,0 +1,767 @@
+ls -ltr
+#list by long form, most recently modified, and in reverse
+
+ls
+#list stuff in this directory
+
+rm blahblah.txt
+# remove the blahblah.txt
+
+ls
+ls blahblah.txt
+history > blahblah.txt
+ls blahblah.txt
+ls moving_around.txt
+ls -tl
+ls -t
+ls -l
+history > moving_around.txt
+man less
+history | less
+man history
+history
+clear
+cd
+cd ..
+pwd
+cd ../
+cd ././
+cd ../../
+cd ...
+ls -rl /
+ls -rtl /
+man ls
+ls -rt /
+ls -rt
+ls /
+ls -r
+ls ~
+ls ~/Downloads/
+cd .
+cd ~
+man
+-t
+t
+/-t
+man -a
+less
+man
+man -t
+man /-t
+t
+ls -l
+cd Users
+cd /
+jfdlsjfd
+jasdfjlksadf
+reset
+jlksfjksla;djfklds
+python -m SimpleHTTPServer
+python -m SimpleHTTPServer 6000
+cd documents/compute/projects/juliadeaksandler/
+cd app
+cd appengine-angular-seed-python-master
+cd downloads
+cd projects/juliadeaksandler/
+cd compute
+cd documents
+cd downloads/
+git status
+git push origin master
+git remote add origin git@github.com:toalina/sea-w29-uge.git
+git commit -m "Add more notes at home"
+git add unix_notes.txt
+git init
+cd uge_workshop/
+git remote add origin git@github.com:toalina/nostradamusjunior.git
+git remote -v
+git commit -am "Add Nostradamus Junior website files"
+git add index.html main.css images/ slimbox/
+subl index.html main.css
+cd nostradamusjunior/
+mv adam3.0/ nostradamusjunior/
+cd Adam3.0/
+cd helloalinato
+mv alina/ helloalinato/
+cd projects
+git remote add origin git@github.com:toalina/donutshopfinal.git
+git commit -am "Add final version of donutshopform html, css, and js"
+git add .
+git add donutshopformfinal.js
+git add donutshopformfinal.html
+git add donutshop.css
+cd donutshopfinal/
+cd foundations1/
+cd codefellows
+cd..
+git log
+git merge git-notes
+git checkout master
+git checkout git-notes
+git checkout notes
+git branch notes
+git branch
+git branch master
+git push origin git-notes
+cat ~/.ssh/id_rsa.pub | pbcopy
+cat ~/.ssh/id_rsa.pub
+ls -la ~/.ssh/
+git commit -m "Describe git branch command."
+git diff --staged
+git branch git-notes
+q
+git
+git commit -m "Add comment about displaying hidden files"
+subl unix_notes.txt
+git commit -m "Added blah blah blah blah"
+git diff
+git commit -m "Add initial version of unix notes."
+cd .git
+ls -a
+ls ./uge_workshop/
+mv ./uge_workshop/moving_around.txt ./uge_workshop/unix_notes.txt
+mv ./uge_workshop/moving_around.txt .uge_workshop/unix_notes.txt
+mv moving_around.txt ./uge_workshop/
+man -d
+ls -ld uge_workshop/
+ls uge_workshop/
+mkdir uge_workshop
+subl moving_around.txt
+ls -l moving_around.txt
+history >> moving_around.txt
+less moving_around.txt
+ls .
+ls ~
+..
+cd documents/
+cd applications/
+cd /
+clar
+cd invoices
+cd Music\ Stuff/
+# /Users/mymymylaptop/documents/
+cd code
+cd "guessinggamerepo/"
+ls -R
+ls -u
+ls -Sl
+ls -S
+ls -lrt
+ls -r
+ls -lt
+ls -t
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.email
+git config --global user.email 'alina.to@gmail.com'
+git config --global user.name 'Alina To'
+git config --global user.name 'YOUR FULL NAME'
+which git
+echo $PATH
+git --version
+brew install git
+subl /etc/paths
+echo $path
+echo $EDITOR
+echo $EDITOR
+which subl
+subl ~/.config/fish/config.fish
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+brew info fish
+fish_update_completions
+which fish
+echo $SHELL
+curl -fsSL http://git.io/beJs | ruby
+chsh -s /usr/local/bin/fish
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew install fish
+brew update
+brew doctor
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
+uname
+open hello_world.rb
+-la
+ls -lah
+ruby hello_world.rb
+touch hello_world.rb
+cd desktop
+cd
+cd.
+cd movies
+cd applications
+cd Documents
+git pull
+git branch -D feature_branch
+git branch -d feature_branch
+git push origin feature_branch
+git commit -m "add guessgame3"
+git add guessgame3.txt
+touch guessgame3.txt
+git checkout -b feature_branch
+git commit -m "add guessing game files"
+git add --all
+open .
+cd guessinggame/
+cd guessinggame
+git clone https://github.com/toalina/guessinggame.git
+cd "code fellows"
+cd mymymylaptop
+git pull origin master
+git push -u origin master
+git remote add origin https://github.com/toalina/guessinggame.git
+git commit -m 'Add all these files'
+git add '*.html'
+git commit -m "guessing game 1"
+git add guessing_game.html
+cd guessinggamerepo
+mkdir guessinggamerepo
+commit -m "guessing game 2"
+git add 'guessgame2.html'
+cd "Code Fellows"
+cd Code Fellows
+cd code%fellows
+cd code_fellows
+cd documents/code_fellows
+git remote add origin https://github.com/toalina/donut-shop.git
+git commit -m "first commit"
+git add README.md
+echo "# donut-shop" >> README.md
+git credential-osxkeychain
+git config --global user.email "alina.to@gmail.com"
+git config --global user.name "Alina To"
+mv index.html css/ js/ hw5/
+mkdir hw5
+cd Downloads/
+mkdir linuxtutorialwork/testdir
+mv example1 backups
+mv barney backups/
+mv barney2 backups/barney3
+mkdir backups
+cp -r barney barney2
+cp barney barney2
+cp example1 barney
+touch example1
+cd linuxtutorialwork
+rmdir linuxtutorialwork/stuff
+rm linuxtutorialwork/stuff
+mkdir -pv linuxtutorialwork/stuff
+cd linuxtutorialwork/stuff
+mkdir -p linuxtutorialwork/stuff
+mkdir ~/linuxtutorialwork/stuff
+mkdir /~/linuxtutorialwork/stuff
+mkdir /home/alina/foo
+mkdir linuxtutorialwork
+ls -alh
+ls --all
+man -k ls
+file 'PSQ 1.jpg'
+file PSQ 1.jpg
+file PSQ/ 1.jpg
+cd Desktop
+file .gem/
+cd 'alina violin photos'
+file Documents/Compute
+file Documents/index.html
+ls Documents
+cd /usr/bin
+cd /bin
+cd /var/log
+cd /etc
+cd Appications/
+cd ~/Documents
+ls ../../
+ls /home/alina/Documents
+ls ./Documents
+ls ~/Documents
+ls /home/alina/documents
+ls /home/Alinas-MBP/Documents
+ls Desktop
+ls -l /etc
+ls /etc
+touch
+mkdir
+man man
+cd /Users
+ls -l ~
+git config --global user.name "Alina"
+exit
+env | grep TESTING
+echo $TESTING
+unset TESTING
+echo $PWD
+echo $USER
+env | grep zed
+env
+apropos directory
+apropos remove
+apropos find
+apropos search
+man grep
+man find
+grep new
+grep new *.txt
+grep "new file"
+grep ex12.txt
+grep file *.txt
+grep old *.txt
+frep old *.txt
+cat > oldfile.txt
+cat > newfile.txt
+find . -name "*.txt" -print | less
+find . -name "*.txt" -print
+cd temp
+dir -r | more
+dir -r -filter "*.txt"
+dir -r
+cat *.txt
+ls *.txt
+rm *.txt
+cat *.txt > bigfile.txt
+ls *t
+ls e*
+ls ex*.*
+cat ex15.txt | more
+cat another.txt
+cat ex15.txt > another.txt
+cat ex15.txt
+echo "I am a new file." > ex15.txt
+cat ex12.txt,ex13.txt | more
+cat ex13.txt > ex15.txt
+less < ex12.txt | cat | less
+less < cat12.txt
+cat < ex13.txt
+cat ex12.txt ex13.txt | less
+rm -rf newplace
+rmdir something
+rm something/awesome.txt
+cp -r something newplace
+rm iamcool.txt neat.txt
+rm uncool.txt
+touch neat.txt something
+touch uncool.txt iamcool.txt
+cat ex12.txt
+cat ex13.txt
+more ex13.txt
+less ex13.txt
+more ex12.txt
+less ex12.txt
+mv iamcool.txt ex13.txt
+mv iamcool.txt
+touch iamcool.txt
+git remote add origin https://github.com/toalina/nostradamusjunior.git
+echo "# nostradamusjunior" >> README.md
+touch ex13.txt
+temp
+cp desktop/ex12.txt temp
+rm -rf stuff
+rm stuff
+rm ex12.txt ex13.txt
+rm -rf temp
+rm -rf documents
+rm -rf desktop
+rm -rf coolplace
+rm -rf newnew
+cp -r something newnew
+rm lalala.txt thefourthfile.txt
+rm lalala.text thefourthfile.txt
+rm neat.txt
+cd coolplace
+mv iamcool.txt temp
+mv coolplace/uncool.txt temp
+I am a fun guy.
+less neat.txt
+mv temp/ desktop/
+mv temp desktop
+cp ex12.txt
+cp ex12.txt desktop/temp
+cp ex12.txt temp
+cp ex12.txt
+mv ex12.txt temp
+mv ex12.txt temp/
+cp ex12.txt ~/temp/
+cp ex12.txt temp/
+mv newplace coolplace
+mv uncool.txt newplace
+mv iamcool.txt newplace
+mv oldplace newplace
+ls -l moving_around.txt
+history > moving_around.txt
+ls -ltr
+ls
+rm blahblah.txt
+ls
+ls blahblah.txt
+history > blahblah.txt
+ls blahblah.txt
+ls moving_around.txt
+ls -tl
+ls -t
+ls -l
+history > moving_around.txt
+man less
+history | less
+man history
+history
+clear
+cd
+cd ..
+pwd
+cd ../
+cd ././
+cd ../../
+cd ...
+ls -rl /
+ls -rtl /
+man ls
+ls -rt /
+ls -rt
+ls /
+ls -r
+ls ~
+ls ~/Downloads/
+cd .
+cd ~
+man
+-t
+t
+/-t
+man -a
+less
+man
+man -t
+man /-t
+t
+ls -l
+cd Users
+cd /
+jfdlsjfd
+jasdfjlksadf
+reset
+jlksfjksla;djfklds
+python -m SimpleHTTPServer
+python -m SimpleHTTPServer 6000
+cd documents/compute/projects/juliadeaksandler/
+cd app
+cd appengine-angular-seed-python-master
+cd downloads
+cd projects/juliadeaksandler/
+cd compute
+cd documents
+cd downloads/
+git status
+git push origin master
+git remote add origin git@github.com:toalina/sea-w29-uge.git
+git commit -m "Add more notes at home"
+git add unix_notes.txt
+git init
+cd uge_workshop/
+git remote add origin git@github.com:toalina/nostradamusjunior.git
+git remote -v
+git commit -am "Add Nostradamus Junior website files"
+git add index.html main.css images/ slimbox/
+subl index.html main.css
+cd nostradamusjunior/
+mv adam3.0/ nostradamusjunior/
+cd Adam3.0/
+cd helloalinato
+mv alina/ helloalinato/
+cd projects
+git remote add origin git@github.com:toalina/donutshopfinal.git
+git commit -am "Add final version of donutshopform html, css, and js"
+git add .
+git add donutshopformfinal.js
+git add donutshopformfinal.html
+git add donutshop.css
+cd donutshopfinal/
+cd foundations1/
+cd codefellows
+cd..
+git log
+git merge git-notes
+git checkout master
+git checkout git-notes
+git checkout notes
+git branch notes
+git branch
+git branch master
+git push origin git-notes
+cat ~/.ssh/id_rsa.pub | pbcopy
+cat ~/.ssh/id_rsa.pub
+ls -la ~/.ssh/
+git commit -m "Describe git branch command."
+git diff --staged
+git branch git-notes
+q
+git
+git commit -m "Add comment about displaying hidden files"
+subl unix_notes.txt
+git commit -m "Added blah blah blah blah"
+git diff
+git commit -m "Add initial version of unix notes."
+cd .git
+ls -a
+ls ./uge_workshop/
+mv ./uge_workshop/moving_around.txt ./uge_workshop/unix_notes.txt
+mv ./uge_workshop/moving_around.txt .uge_workshop/unix_notes.txt
+mv moving_around.txt ./uge_workshop/
+man -d
+ls -ld uge_workshop/
+ls uge_workshop/
+mkdir uge_workshop
+subl moving_around.txt
+history >> moving_around.txt
+less moving_around.txt
+ls .
+ls ~
+..
+cd documents/
+cd applications/
+cd /
+clar
+cd invoices
+cd Music\ Stuff/
+# /Users/mymymylaptop/documents/
+cd code
+cd "guessinggamerepo/"
+ls -R
+ls -u
+ls -Sl
+ls -S
+ls -lrt
+ls -r
+ls -lt
+ls -t
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.email
+git config --global user.email 'alina.to@gmail.com'
+git config --global user.name 'Alina To'
+git config --global user.name 'YOUR FULL NAME'
+which git
+echo $PATH
+git --version
+brew install git
+subl /etc/paths
+echo $path
+echo $EDITOR
+echo $EDITOR
+which subl
+subl ~/.config/fish/config.fish
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+brew info fish
+fish_update_completions
+which fish
+echo $SHELL
+curl -fsSL http://git.io/beJs | ruby
+chsh -s /usr/local/bin/fish
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew install fish
+brew update
+brew doctor
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
+uname
+open hello_world.rb
+-la
+ls -lah
+ruby hello_world.rb
+touch hello_world.rb
+cd desktop
+cd
+cd.
+cd movies
+cd applications
+cd Documents
+git pull
+git branch -D feature_branch
+git branch -d feature_branch
+git push origin feature_branch
+git commit -m "add guessgame3"
+git add guessgame3.txt
+touch guessgame3.txt
+git checkout -b feature_branch
+git commit -m "add guessing game files"
+git add --all
+open .
+cd guessinggame/
+cd guessinggame
+git clone https://github.com/toalina/guessinggame.git
+cd "code fellows"
+cd mymymylaptop
+git pull origin master
+git push -u origin master
+git remote add origin https://github.com/toalina/guessinggame.git
+git commit -m 'Add all these files'
+git add '*.html'
+git commit -m "guessing game 1"
+git add guessing_game.html
+cd guessinggamerepo
+mkdir guessinggamerepo
+commit -m "guessing game 2"
+git add 'guessgame2.html'
+cd "Code Fellows"
+cd Code Fellows
+cd code%fellows
+cd code_fellows
+cd documents/code_fellows
+git remote add origin https://github.com/toalina/donut-shop.git
+git commit -m "first commit"
+git add README.md
+echo "# donut-shop" >> README.md
+git credential-osxkeychain
+git config --global user.email "alina.to@gmail.com"
+git config --global user.name "Alina To"
+mv index.html css/ js/ hw5/
+mkdir hw5
+cd Downloads/
+mkdir linuxtutorialwork/testdir
+mv example1 backups
+mv barney backups/
+mv barney2 backups/barney3
+mkdir backups
+cp -r barney barney2
+cp barney barney2
+cp example1 barney
+touch example1
+cd linuxtutorialwork
+rmdir linuxtutorialwork/stuff
+rm linuxtutorialwork/stuff
+mkdir -pv linuxtutorialwork/stuff
+cd linuxtutorialwork/stuff
+mkdir -p linuxtutorialwork/stuff
+mkdir ~/linuxtutorialwork/stuff
+mkdir /~/linuxtutorialwork/stuff
+mkdir /home/alina/foo
+mkdir linuxtutorialwork
+ls -alh
+ls --all
+man -k ls
+file 'PSQ 1.jpg'
+file PSQ 1.jpg
+file PSQ/ 1.jpg
+cd Desktop
+file .gem/
+cd 'alina violin photos'
+file Documents/Compute
+file Documents/index.html
+ls Documents
+cd /usr/bin
+cd /bin
+cd /var/log
+cd /etc
+cd Appications/
+cd ~/Documents
+ls ../../
+ls /home/alina/Documents
+ls ./Documents
+ls ~/Documents
+ls /home/alina/documents
+ls /home/Alinas-MBP/Documents
+ls Desktop
+ls -l /etc
+ls /etc
+touch
+mkdir
+man man
+cd /Users
+ls -l ~
+git config --global user.name "Alina"
+exit
+env | grep TESTING
+echo $TESTING
+unset TESTING
+echo $PWD
+echo $USER
+env | grep zed
+env
+apropos directory
+apropos remove
+apropos find
+apropos search
+man grep
+man find
+grep new
+grep new *.txt
+grep "new file"
+grep ex12.txt
+grep file *.txt
+grep old *.txt
+frep old *.txt
+cat > oldfile.txt
+cat > newfile.txt
+find . -name "*.txt" -print | less
+find . -name "*.txt" -print
+cd temp
+dir -r | more
+dir -r -filter "*.txt"
+dir -r
+cat *.txt
+ls *.txt
+rm *.txt
+cat *.txt > bigfile.txt
+ls *t
+ls e*
+ls ex*.*
+cat ex15.txt | more
+cat another.txt
+cat ex15.txt > another.txt
+cat ex15.txt
+echo "I am a new file." > ex15.txt
+cat ex12.txt,ex13.txt | more
+cat ex13.txt > ex15.txt
+less < ex12.txt | cat | less
+less < cat12.txt
+cat < ex13.txt
+cat ex12.txt ex13.txt | less
+rm -rf newplace
+rmdir something
+rm something/awesome.txt
+cp -r something newplace
+rm iamcool.txt neat.txt
+rm uncool.txt
+touch neat.txt something
+touch uncool.txt iamcool.txt
+cat ex12.txt
+cat ex13.txt
+more ex13.txt
+less ex13.txt
+more ex12.txt
+less ex12.txt
+mv iamcool.txt ex13.txt
+mv iamcool.txt
+touch iamcool.txt
+git remote add origin https://github.com/toalina/nostradamusjunior.git
+echo "# nostradamusjunior" >> README.md
+touch ex13.txt
+temp
+cp desktop/ex12.txt temp
+rm -rf stuff
+rm stuff
+rm ex12.txt ex13.txt
+rm -rf temp
+rm -rf documents
+rm -rf desktop
+rm -rf coolplace
+rm -rf newnew
+cp -r something newnew
+rm lalala.txt thefourthfile.txt
+rm lalala.text thefourthfile.txt
+rm neat.txt
+cd coolplace
+mv iamcool.txt temp
+mv coolplace/uncool.txt temp
+I am a fun guy.
+less neat.txt
+mv temp/ desktop/
+mv temp desktop
+cp ex12.txt
+cp ex12.txt desktop/temp
+cp ex12.txt temp
+cp ex12.txt
+mv ex12.txt temp
+mv ex12.txt temp/
+cp ex12.txt ~/temp/
+cp ex12.txt temp/
+mv newplace coolplace
+mv uncool.txt newplace
+mv iamcool.txt newplace
+mv oldplace newplace
